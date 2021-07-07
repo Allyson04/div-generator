@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div Generator</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+</head>
+<body>
+    <main>
+        <form action="">
+            <section>
+                <label for="border-radius">Border radius:</label>
+                <input type="number" name="border-radius" id="border-radius">
+                <small>
+                    <label for="multiple-border-radius">Custom radius for each border-side?</label>
+                    <input type="checkbox" name="multiple-border-radius" id="multiple-border-radius">
+                </small>
+            </section>
+
+            <section>
+                <label for="border-color">Border color:</label>
+                <input type="color" name="border-color"> or
+                <input type="text" name="border-color">
+                <small>
+                    <label for="multiple-border-color">Custom colors for each border-side?</label>
+                    <input type="checkbox" name="multiple-border-color" id="multiple-border-color">
+                </small>
+            </section>
+            
+            <section>
+                <label for="border-width">Border width:</label>
+                <input type="number" id="border-width" name="border-width">
+                <small>
+                    <label for="multiple-border-width">Custom width for each border-side?</label>
+                    <input type="checkbox" name="multiple-border-width" id="multiple-border-width">
+                </small>
+            </section>
+
+
+            
+        </form>
+        <div id="special-div">Here is your div:</div>
+    </main>
+
+    <script src="./assets/scripts/script.js"></script>
+</body>
+</html>
