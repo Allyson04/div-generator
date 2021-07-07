@@ -11,12 +11,26 @@
 <body>
     <main>
         <form action="">
+
+            <section>
+                <label for="width">Width:</label>
+                <input type="number" name="width" id="width" class="size">
+
+                <label for="height">Height:</label>
+                <input type="number" name="height" id="height" class="size">
+
+                <small>
+                    <input type="checkbox" name="squareDiv" id="squareDiv">
+                    <label for="squareDiv">Width = Height?</label>
+                </small>
+            </section>
+            
             <section>
                 <label for="border-radius">Border radius:</label>
                 <input type="number" name="border-radius" id="border-radius">
                 <small>
-                    <label for="multiple-border-radius">Custom radius for each border-side?</label>
                     <input type="checkbox" name="multiple-border-radius" id="multiple-border-radius">
+                    <label for="multiple-border-radius">Custom radius for each border-side?</label>
                 </small>
             </section>
 
@@ -25,8 +39,8 @@
                 <input type="color" name="border-color"> or
                 <input type="text" name="border-color">
                 <small>
-                    <label for="multiple-border-color">Custom colors for each border-side?</label>
                     <input type="checkbox" name="multiple-border-color" id="multiple-border-color">
+                    <label for="multiple-border-color">Custom colors for each border-side?</label>
                 </small>
             </section>
             
@@ -34,8 +48,8 @@
                 <label for="border-width">Border width:</label>
                 <input type="number" id="border-width" name="border-width">
                 <small>
-                    <label for="multiple-border-width">Custom width for each border-side?</label>
                     <input type="checkbox" name="multiple-border-width" id="multiple-border-width">
+                    <label for="multiple-border-width">Custom width for each border-side?</label>
                 </small>
             </section>
 

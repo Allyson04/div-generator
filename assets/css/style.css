@@ -6,9 +6,25 @@ body {
 main {
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
+    justify-content: space-between;
+    width: 80vw;
+    height: 70vh;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+section {
+    margin: 20px;
+}
+
+main small {
+    margin-top: 5px;
+    display: block;
 }
 
 form {
@@ -17,4 +33,9 @@ form {
 
 #special-div {
     border: 1px solid black;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
 }
